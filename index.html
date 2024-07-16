@@ -33,7 +33,7 @@
             <h1>Nucamp</h1>
             <h2>a better way to camp</h2>
           </div>
-          <div class="col-md-4 col-xl-2 .col-ms-4">
+          <div class="col-md-4 col-xl-2 col-ms-4">
             <a href="#reserveForm">
             <button type="button" class="btn btn-info text-light">
               Reserve Campsite
@@ -49,7 +49,7 @@
         <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
       <button
-        class="navbar-toggler ms-auto"
+        class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#nucampNavbar"
@@ -122,12 +122,13 @@
 <div class="col sm-9 mx-auto">
   <div class="card">
     <h3 class="card-header bg-info text-light">Reserve a Campsite</h3>
-    <div class="card body">
-      <form id="reserveForm">
-        <div class="row">
-<label for="campernumber">Number of Campers</label>
-<div class="col">
-          <select id="campernumber" name="country">
+    <div class="card">
+  <div class="card-body">
+    <form id="reserveForm">
+      <div class="mb-3 row">
+        <label for="campernumber" class="col-sm-3 col-form-label">Number of Campers</label>
+        <div class="col-sm-9">
+          <select id="campernumber" name="campernumber" class="form-control">
             <option>Select...</option>
             <option value="one">1</option>
             <option value="two">2</option>
@@ -136,21 +137,22 @@
             <option value="five">5</option>
             <option value="six">6</option>
           </select>
-          </div>
         </div>
-        <div class="row">
-<label for="date">Date</label>
-<div class="col">
-<input type="date" id="date" name="date">
+      </div>
+      <div class="mb-3 row">
+        <label for="date" class="col-sm-3 col-form-label">Date</label>
+        <div class="col-sm-9">
+          <input type="date" id="date" name="date" class="form-control">
         </div>
+      </div>
+      <div class="mb-3 row">
+        <div class="col">
+          <button type="submit" class="btn btn-primary">Search</button>
         </div>
-        <div class="row">
-<div class="column">
-  <button type="submit" class="btn btn-primary">Search</button>
+      </div>
+    </form>
+  </div>
 </div>
-        </div>
-      </form>
-    </div>
   </div>
 </div>
         </div>
