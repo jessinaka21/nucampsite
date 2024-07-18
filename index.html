@@ -117,19 +117,18 @@
     </div>
 
     <div id="reserveForm" class="modal fade" role="dialog">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-          <h3 class="modal-title card-header bg-info text-light">Reserve a Campsite</h3>
-          <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+      <div class="modal-header bg-info text-light w-100">
+          <h3 class="modal-title">Reserve a Campsite</h3>
           <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body">
+        <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post"></form>
         <div class="container-fluid">
-          <form>
-            <div class="form-row">
-              <label for="campernumber" class="col-sm-3 col-form-label">Number of Campers</label>
-              <div class="form-group col-12">
+            <div class="form-group row">
+               <label for="campernumber" class="col-sm-3 col-form-label">Number of Campers</label>
+            <div class="col-sm-9">
                 <select id="campernumber" name="campernumber" class="form-control">
             <option>Select...</option>
             <option value="one">1</option>
@@ -141,10 +140,10 @@
           </select>
         </div>
       </div>
-      <div class="mb-3 col-12">
-        <label for="date" class="col-sm-3 col-form-label">Date</label>
-        <div class="col-sm-9">
-          <input type="date" id="date" name="date" class="form-control">
+      <div class="form-group row">
+            <label for="date" class="col-sm-3 col-form-label">Date</label>
+            <div class="col-sm-9">
+              <input type="date" id="date" name="date" class="form-control">
         </div>
       </div>
       <div class="mb-3 row">
