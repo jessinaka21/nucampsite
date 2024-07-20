@@ -1,0 +1,114 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lato", cursive;
+}
+
+h2 {
+  color: #28202a;
+}
+
+header {
+  padding: 30px;
+  background-image: url("../img/breadcrumb-trail.jpg") ;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+header h2 {
+  color: #cec8ff;
+}
+
+footer {
+ background-image: url("../img/breadcrumb-trail.jpg");
+  padding: 20px 0;
+  color: white;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: rgb(40, 32, 42);
+}
+
+#sitetitle {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#factsheader {
+    background-color: rgba(1, 52, 37, 0.7);
+}
+
+.row-content p {
+    margin-bottom: 40px;
+}
+
+.mission-block {
+    max-width: 50%;
+    text-align: justify;
+}
+
+#factsblock {
+  margin-left: 600px;
+  margin-top: -230px;
+  display: flex;
+   justify-content: flex-end;
+}
+
+#quote {
+    text-align:center;
+    background-color:  rgba(1, 52, 37, 0.3);
+    margin-bottom: 40px;
+}
+
+#footerlinks {
+ background-color: rgba(0, 0, 0, 0.5);  
+}
+
+#footersocial {
+ background-color: rgba(0, 0, 0, 0.5);  
+}
+
+#footercontact {
+ background-color: rgba(0, 0, 0, 0.5);  
+}
+
+i {
+    color: white;
+}
+
+.accordion-item .accordion-button {
+    background-color: rgba(1, 52, 37, 0.3);
+    color: rgb(40, 32, 42);
+}
+
+.accordion-item .accordion-button:not(.collapsed) {
+    background-color: rgba(1, 52, 37, 0.3);
+}
+
+.bg-secondary {
+    background-color:rgb(40, 32, 42, 0.6) !important;
+}
+
+.img1 {
+    margin-left: 90px;
+    border-radius: 25px;
+}
+.img2 {
+    margin-top: -30px;
+    border-radius: 25px;
+}
+
+a {
+    color: #f4f6f8;
+}
+
+
