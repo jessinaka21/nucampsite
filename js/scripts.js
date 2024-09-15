@@ -41,7 +41,7 @@ function displayWeather(data) {
   document.querySelector("#weather-icon").appendChild(image);
   // temp
   const temp = document.createElement("p");
-  temp.textContent = `${data.main.temp}°F`;
+  temp.textContent = `${Math.round(data.main.temp)}°F`;
   document.querySelector("#weather-temp").appendChild(temp);
   // description
   const description = document.createElement("p");
